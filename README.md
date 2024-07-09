@@ -4,10 +4,10 @@
   <img src="https://img.shields.io/static/v1?label=npm&message=v. 10.8.1&color=CB3837&style=flat-sqare&logo=npm&logoColor=white"/>
   <img src="https://img.shields.io/static/v1?label=TypeScript&message=v. 5.5.3&color=3178C6&style=flat-sqare&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/static/v1?label=JavaScript&message=ECMAScript 2024&color=F7DF1E&style=flat-sqare&logo=javascript&logoColor=white"/>
-  <img src="https://img.shields.io/static/v1?label=NestJs&message=v. 10.3.10&color=E0234E&style=flat-sqare&logo=nestjs&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?label=Fastify&message=v. 4.28.1&color=000000&style=flat-sqare&logo=fastify&logoColor=white"/>
   <img src="https://img.shields.io/static/v1?label=Prisma&message=v. 5.16.1&color=2D3748&style=flat-sqare&logo=prisma&logoColor=white"/>
-  <img src="https://img.shields.io/static/v1?label=PostgreSQL&message=v. 20&color=4169E1&style=flat-sqare&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/static/v1?label=Docker&message=latest&color=2496ED&style=flat-sqare&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?label=SQLite&message=v. 3.0&color=003B57&style=flat-sqare&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?label=Zod&message=v. 3.23.8&color=3E67B1&style=flat-sqare&logo=zod&logoColor=white"/>
   <img src="https://img.shields.io/static/v1?label=Environment&message=.env&color=ECD53F&style=flat-sqare&logo=dotenv&logoColor=white"/>
 </p>
 
