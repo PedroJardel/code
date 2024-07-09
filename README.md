@@ -57,7 +57,7 @@ $ npm run dev
 #### Rotas método post
 - [x] Cadastro de viagem => ('/trips')
 
-Exemplo
+Exemplo request.body
 ```bash
 {
 	"destination": "Florianópolis",
@@ -74,7 +74,6 @@ Exemplo
 ```
 
 #### Rotas método get
-###### Pacientes
 - [x] Confirmar participação na viagem => ('/trips/:tripId/confirm')
 
 Exemplo response
