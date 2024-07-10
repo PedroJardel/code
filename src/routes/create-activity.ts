@@ -2,10 +2,8 @@ import { FastifyInstance } from "fastify";
 import { prisma } from '../lib/prisma'
 import { z } from 'zod'
 import { ZodTypeProvider } from "fastify-type-provider-zod";
-import { validateDatesActivity, validationDatesTrip } from "../validations/validation-dates-trip";
-import { getMailClient } from "../lib/mail";
-import nodemailer from 'nodemailer'
-import { dayjs } from "../lib/dayjs";
+import { validateDatesActivity } from "../validations/validation-dates-activity";
+import { ClientError } from "../errors/client-error";
 
 export async function createActivity(app: FastifyInstance) {
     app.withTypeProvider<ZodTypeProvider>().post('/trips/:tripId/activities', {
@@ -27,7 +25,7 @@ export async function createActivity(app: FastifyInstance) {
         })
 
         if(!trip) {
-            throw new Error('Trip not found.')
+            throw new ClientError('Trip not found.')
         }
 
         validateDatesActivity(occurs_at, trip)
